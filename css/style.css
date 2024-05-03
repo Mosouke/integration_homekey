@@ -77,6 +77,10 @@ header{
     align-items: center;
 }
 
+header nav {
+    padding-top: 50px;
+}
+
 header img {
     width: 100%;
     object-fit: contain;
@@ -87,13 +91,13 @@ header img {
 header nav a {
     &:hover{
         border-top: 1px solid var(--red);
-        padding-top: 57px;
+        padding-top: 55px;
         transition: 0.3s ease-in-out;
     }
 }
 
 header ul {
-    padding: 50px 15px 0px 15px;
+    padding: 0px 15px 20px 15px;
     border-top: 1px solid transparent;   
 }
 
@@ -511,10 +515,6 @@ form input[type="text"] [placeholder=""] {
         }
     }
 
-    header ul li a {
-       
-    }
-    
     .fa-magnifying-glass {
         display: inline-block !important;
         color: var(--white);
