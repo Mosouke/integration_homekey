@@ -494,7 +494,7 @@ form input[type="text"] [placeholder=""] {
         width: 100%;
     }
 
-    header ul {
+    header nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 0px;
